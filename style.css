@@ -114,3 +114,120 @@ header .button{
     padding:10px 0px 4px 0px;
     letter-spacing: 0.1em;
 }
+/* *****************************FORMATION***************** */
+#formation{
+    position: relative;
+    top: -400px;
+    float: right;
+    margin-right: 5%;
+    padding: 110px 0 60px 50px;
+    width: 45%;
+    max-width: 660px;
+    background: linear-gradient(7deg,#2678d0 0%, rgba(51,124,212,0.43) 10%, rgba(22,111,202,0.78) 80%);
+    clip-path: polygon(8% 6%, 100% 0, 100% 100%, 4% 89%);
+
+}
+#formation h4{
+    font-weight: bold;
+    letter-spacing: 0.08em;
+    padding-bottom: 10;
+    text-shadow: -1px -1px 1px #353535;
+}
+/* **************************PARCOURS************************************* */
+#parcours{
+    max-width: 800px;
+    margin: 140px auto 180px auto;
+    padding: 40PX 30px 100px  30px;
+    background: url("/media/parcours.jpg") no-repeat fixed 50% 50%;
+    background-size: cover;
+    border-radius: 8px;
+    box-shadow: -1px -1px 8px #283655;
+}
+#parcours h4{
+    font-size: 2.5em;
+    padding-bottom: 30px;
+    color: #ff4e50;
+
+}
+#parcours li{
+    line-height: 1.9em;
+    list-style:none;
+}
+
+/* **********************portefolio******************* */
+#portefolio{
+    margin: 100px 2% 0 2%;
+    padding: 40px 10px 60px 40px;
+    background-color: rgba(179,172,167,0.08);
+    box-shadow: 0px 0px 1px #a8a8a9;
+}
+#portefolio h3{
+    font-size: 3em;
+    padding-bottom: 15px;
+}
+.projet {
+display: flex;
+}
+.cadre{
+    position: relative;
+    padding: 40px 20px 25px 0;
+    width: 60%;
+    max-width: 600px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    margin: 10px 8px;
+    color: #aca49c;
+    text-align: center;
+
+}
+.imgpro1{
+    height: 250px;
+    width: 90%;
+    max-width: 500px;
+    overflow: hidden;
+    margin: 0 auto;
+    box-shadow: 1px 1px 10px #111;
+}
+.imgpro1 img{
+    position: relative;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.imgpro1 :hover img{
+    transform: scale(1.07);
+    transform-origin: 50% 50%;
+    filter: contrast(140%);
+    transition: 0.3 ease-in-out;
+}
+.cadre:before, .cadre:after{
+content: '';
+display: block;
+position: absolute;
+width: 20%;
+height: 20%;
+border: 1px solid;
+transition: all 0.6s ease ;
+border-radius: 2px;
+z-index: -1;
+}
+.cadre:before{
+    top: 15px;
+    left: 0;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+}
+.cadre:after{
+    bottom: 0;
+    right: 15px;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    
+
+}
+.cadre:hover:before, .cadre:hover:after{
+    border-color: #aca49c;
+    width: 100%;
+    height: 100%;
+}
