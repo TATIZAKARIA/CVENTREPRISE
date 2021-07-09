@@ -241,11 +241,12 @@ z-index: -1;
 .projet:hover .legende{
     opacity: 1;
 }
+
 footer{
-    background-color: url(/media/footer.jpg) 50% 0% no-repeat fixed;
+    background: url("/media/footer.jpg") 50% 0% no-repeat fixed;
     background-size: cover;
     text-align: center;
-    padding: 160px 5px 50px;
+    padding: 160px 50px 5px 50px;
 }
 footer h3{
     padding: 0 0 60px 0;
@@ -256,6 +257,7 @@ footer h3{
     display: flex;
     justify-content: space-between;
     max-width: 60%;
+    margin-bottom: 50px;
 }
 .network{
     font-size: 4em;
@@ -269,7 +271,4 @@ footer h3{
     background:#726659;
     color: #f7fafa;
     transition: 0.5s ease-in-out;
-}
-.arrow{
-    margin-top: top 100px; ;
 }
