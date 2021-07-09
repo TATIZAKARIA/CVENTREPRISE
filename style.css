@@ -231,3 +231,45 @@ z-index: -1;
     width: 100%;
     height: 100%;
 }
+/* *************************legende***************************** */
+.legende{
+    max-width: 350px;
+    padding:50px 0 20px 0;
+    opacity: 0;
+    transition: 5s ease-in-out;
+}
+.projet:hover .legende{
+    opacity: 1;
+}
+footer{
+    background-color: url(/media/footer.jpg) 50% 0% no-repeat fixed;
+    background-size: cover;
+    text-align: center;
+    padding: 160px 5px 50px;
+}
+footer h3{
+    padding: 0 0 60px 0;
+    font-size: 2.5em;
+}
+.footer-icons{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 60%;
+}
+.network{
+    font-size: 4em;
+    border: 1px solid #b3aca7;
+    padding: 30px 45px;
+    color: #726659;
+    z-index: -1 !important;
+    border-radius: 50%;
+}
+.network:hover{
+    background:#726659;
+    color: #f7fafa;
+    transition: 0.5s ease-in-out;
+}
+.arrow{
+    margin-top: top 100px; ;
+}
