@@ -1,0 +1,62 @@
+*{
+    border-radius:50px;
+    padding: 10PX;
+    text-align: center;
+    
+}
+body{
+    min-height: 100vh;
+    transition: 5s;
+   
+    
+}
+img{
+    margin: 0 auto;
+    height: 500px;
+    visibility: hidden;
+}
+.show{
+visibility: visible;
+}
+.mouseEvents{
+    border: 6px solid coral;
+    width: 220px;
+    position: absolute;
+    left: 20%;
+    transform: translatex(-50%);
+    
+}
+.themecontainer{
+    position: fixed;
+    top: 0;
+}
+.theme{
+    height: 30px;
+    width: 30PX;
+    cursor: pointer;
+}
+#dark{
+    background: black;
+   margin-bottom: 5px;
+}
+#salamon{
+    background: salmon;
+   margin-bottom: 5px;
+}
+#turquoise{
+    background:turquoise;
+    
+}
+.darktheme{
+    background: black;
+    color: white;
+}
+.salamontheme{
+    background:salmon;
+    color: white;
+
+}
+.turquoisetheme{
+    background:turquoise;
+    color: white;
+}
