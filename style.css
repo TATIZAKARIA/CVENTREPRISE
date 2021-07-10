@@ -242,6 +242,8 @@ z-index: -1;
     opacity: 1;
 }
 
+/* *************************footer********************************* */
+
 footer{
     background: url("/media/footer.jpg") 50% 0% no-repeat fixed;
     background-size: cover;
