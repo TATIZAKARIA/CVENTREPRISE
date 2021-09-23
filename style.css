@@ -33,7 +33,7 @@ justify-content: space-between;
 header{
     text-align: center;
     height: 100vh;
-    background: url("./media/header.jpg") no-repeat fixed 50% 50%;
+    background: url("./media/header.jpg") no-repeat 50% 50%;    
     background-size: cover;
 
 }
@@ -245,7 +245,7 @@ z-index: -1;
 /* *************************footer********************************* */
 
 footer{
-    background: url("/media/footer.jpg") 50% 0% no-repeat fixed;
+    background: url("./media/footer.jpg") 50% 0% no-repeat fixed;
     background-size: cover;
     text-align: center;
     padding: 160px 50px 5px 50px;
