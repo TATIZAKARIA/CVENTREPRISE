@@ -102,6 +102,9 @@ header .button{
 .burger{
     display: none;
 }
+
+
+
 /* *****************************LANGAGES************************************** */
 #langages{
     padding: 80px 80px 80px 50px;
@@ -277,17 +280,28 @@ footer h3{
     color: #f7fafa;
     transition: 0.5s ease-in-out;
 }
-@media screen and (max-width: 988px){
-    
-    .burger, .burger a{
-      display: block;
-      color:#767676;
+@media screen and (max-width: 900px){
+    .nav-item{
+        display: none;
     }
-  .navbar-toggler{
-    position: absolute;
-    right:5%;
-    top:50px;
-  }
+    #parcours h4{
+        font-size: 2rem;
+    }
 
+    #formation{
+        padding: 50px 0 60px 50px;
+    }
+    #langages h3,#formation h3{
+        font-size: 20px;
+    }
+
+    .footer-icons {
+        margin: 0 auto;
+        display: flex;
+        justify-content: CENTER;
+        max-width: 60%;
+        margin-bottom: 50px;
+    }
+
+}
  
-  }
