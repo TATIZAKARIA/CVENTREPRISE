@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@1&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family:'Alegreya', sans-serif ;
+}
+
+body{
+    /* background: rgb(139, 184, 178); */
+    background: url("../media/header.jpg");
+}
+
+section{
+    width: 300px;
+    /* height: 100%; */
+    border: 1px solid;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 2px -2px 5px black;
+    
+}
+
+
+button,textarea,input{
+    display: block;
+    margin-top: 10%;
+    width: 50%;
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif ;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.back a{
+    background-color: #767676;
+    color: white;
+    text-decoration: none;
+    border-radius: 50%;
+    padding: 2%;
+}
+
+.back{
+    margin-bottom: 10px;
+
+}
+
+
+textarea{
+    display: block;
+    height: 100px;
+}
+
+button{
+    background-color: #767676;
+    color: white;
+}
+
+h1{
+    font-size: 2rem;
+}
